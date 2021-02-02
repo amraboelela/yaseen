@@ -1,3 +1,4 @@
 #!/bin/bash
 
-python3 build.py ertugrul 1 $1 $2 $3 $4
+python3 audio2video.py $1
+

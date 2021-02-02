@@ -2,4 +2,6 @@
 
 mkdir -p build/feRehab/
 
-ffmpeg -y -loop 1 -i build/yaseen.png -i ~/audio/yaseen/feRehab/0202.mp3 -c:a aac build/feRehab/feRehab-0202.mp4
+#ffmpeg -y -loop 1 -i build/yaseen.png -i ~/audio/yaseen/feRehab/0202.mp3 -c:a aac build/feRehab/feRehab-0202.mp4
+
+ffmpeg -y -loop 1 -i build/yaseen.png -i ~/audio/yaseen/feRehab/0202.mp3 -c:v libx264 -c:a aac -b:a 192k -pix_fmt yuv420p -shortest build/feRehab/feRehab-0202.mp4
