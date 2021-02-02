@@ -1,0 +1,83 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4A0E1EC325C9AECB00427B41 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4A0E1EC425C9B1A900427B41 /* build.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = build.py; sourceTree = "<group>"; };
+		4A0E1EC525C9B1A900427B41 /* audio2video.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = audio2video.py; sourceTree = "<group>"; };
+		4A0E1EC625C9B1A900427B41 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		4A0E1EC725C9B1A900427B41 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4A0E1EC825C9B1B200427B41 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4A0E1EBC25C9AE9400427B41 = {
+			isa = PBXGroup;
+			children = (
+				4A0E1EC325C9AECB00427B41 /* README.md */,
+				4A0E1EC825C9B1B200427B41 /* build */,
+				4A0E1EC525C9B1A900427B41 /* audio2video.py */,
+				4A0E1EC425C9B1A900427B41 /* build.py */,
+				4A0E1EC625C9B1A900427B41 /* build.sh */,
+				4A0E1EC725C9B1A900427B41 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4A0E1EBD25C9AE9400427B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4A0E1EC025C9AE9400427B41 /* Build configuration list for PBXProject "yaseen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0E1EBC25C9AE9400427B41;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4A0E1EC125C9AE9400427B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4A0E1EC225C9AE9400427B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0E1EC025C9AE9400427B41 /* Build configuration list for PBXProject "yaseen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0E1EC125C9AE9400427B41 /* Debug */,
+				4A0E1EC225C9AE9400427B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0E1EBD25C9AE9400427B41 /* Project object */;
+}
