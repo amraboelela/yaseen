@@ -13,6 +13,7 @@
 		4A0E1EC725C9B1A900427B41 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4A0E1EC825C9B1B200427B41 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
 		4A0E1EC925C9B28200427B41 /* audio2video */ = {isa = PBXFileReference; lastKnownFileType = text; path = audio2video; sourceTree = "<group>"; };
+		C534275D25CA1CDF00682C51 /* build.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = build.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -24,6 +25,7 @@
 				4A0E1EC525C9B1A900427B41 /* audio2video.py */,
 				4A0E1EC925C9B28200427B41 /* audio2video */,
 				4A0E1EC625C9B1A900427B41 /* build.sh */,
+				C534275D25CA1CDF00682C51 /* build.py */,
 				4A0E1EC725C9B1A900427B41 /* LICENSE */,
 			);
 			sourceTree = "<group>";

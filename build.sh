@@ -1,4 +1,4 @@
 #!/bin/bash
 
-python3 audio2video.py $1
+python3 build.py
 
